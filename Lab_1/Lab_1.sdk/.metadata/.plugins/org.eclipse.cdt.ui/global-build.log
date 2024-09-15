@@ -310,3 +310,715 @@ arm-none-eabi-size addSubtractFull.elf  |tee "addSubtractFull.elf.size"
   70628	   2580	  23328	  96536	  17918	addSubtractFull.elf
 Finished building: addSubtractFull.elf.size
  
+
+**** Build of configuration Debug for project AddSubtractFull ****
+
+Nothing to build for project AddSubtractFull
+17:24:50 **** Auto Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AddSubtractFull.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AddSubtractFull.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AddSubtractFull.d" -MT"src/AddSubtractFull.o" -o "src/AddSubtractFull.o" "../src/AddSubtractFull.c"
+'Finished building: ../src/AddSubtractFull.c'
+' '
+'Building target: AddSubtractFull.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_1_bsp/ps7_cortexa9_0/lib -o "AddSubtractFull.elf"  ./src/AddSubtractFull.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../Lab_1_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\Users\gman1\Documents\projects\ece1195\ECE1195-Lab-1\Lab_1\Lab_1.sdk\Lab_1_bsp\ps7_cortexa9_0\libsrc\standalone_v6_8\src/xil-crt0.S:138: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: AddSubtractFull.elf] Error 1
+17:25:10 **** Auto Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AddSubtractFull.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AddSubtractFull.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AddSubtractFull.d" -MT"src/AddSubtractFull.o" -o "src/AddSubtractFull.o" "../src/AddSubtractFull.c"
+'Finished building: ../src/AddSubtractFull.c'
+' '
+'Building target: AddSubtractFull.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_1_bsp/ps7_cortexa9_0/lib -o "AddSubtractFull.elf"  ./src/AddSubtractFull.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AddSubtractFull.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AddSubtractFull.elf  |tee "AddSubtractFull.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70440	   2580	  23328	  96348	  1785c	AddSubtractFull.elf
+'Finished building: AddSubtractFull.elf.size'
+' '
+17:26:41 **** Auto Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AddSubtractFull.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AddSubtractFull.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AddSubtractFull.d" -MT"src/AddSubtractFull.o" -o "src/AddSubtractFull.o" "../src/AddSubtractFull.c"
+'Finished building: ../src/AddSubtractFull.c'
+' '
+'Building target: AddSubtractFull.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_1_bsp/ps7_cortexa9_0/lib -o "AddSubtractFull.elf"  ./src/AddSubtractFull.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AddSubtractFull.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AddSubtractFull.elf  |tee "AddSubtractFull.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70224	   2580	  23328	  96132	  17784	AddSubtractFull.elf
+'Finished building: AddSubtractFull.elf.size'
+' '
+17:26:43 **** Auto Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:26:49 **** Auto Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AddSubtractFull.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AddSubtractFull.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AddSubtractFull.d" -MT"src/AddSubtractFull.o" -o "src/AddSubtractFull.o" "../src/AddSubtractFull.c"
+'Finished building: ../src/AddSubtractFull.c'
+' '
+'Building target: AddSubtractFull.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_1_bsp/ps7_cortexa9_0/lib -o "AddSubtractFull.elf"  ./src/AddSubtractFull.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AddSubtractFull.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AddSubtractFull.elf  |tee "AddSubtractFull.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31784	   2184	  22632	  56600	   dd18	AddSubtractFull.elf
+'Finished building: AddSubtractFull.elf.size'
+' '
+17:27:58 **** Incremental Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:28:31 **** Incremental Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:28:59 **** Auto Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AddSubtractFull.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AddSubtractFull.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AddSubtractFull.d" -MT"src/AddSubtractFull.o" -o "src/AddSubtractFull.o" "../src/AddSubtractFull.c"
+'Finished building: ../src/AddSubtractFull.c'
+' '
+'Building target: AddSubtractFull.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_1_bsp/ps7_cortexa9_0/lib -o "AddSubtractFull.elf"  ./src/AddSubtractFull.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AddSubtractFull.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AddSubtractFull.elf  |tee "AddSubtractFull.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70628	   2580	  23328	  96536	  17918	AddSubtractFull.elf
+'Finished building: AddSubtractFull.elf.size'
+' '
+17:29:27 **** Incremental Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:30:39 **** Auto Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AddSubtractFull.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AddSubtractFull.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AddSubtractFull.d" -MT"src/AddSubtractFull.o" -o "src/AddSubtractFull.o" "../src/AddSubtractFull.c"
+../src/AddSubtractFull.c: In function 'main':
+../src/AddSubtractFull.c:11:12: warning: format '%zu' expects argument of type 'size_t', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+ printf("%2zu\n", regmap[0])
+         ~~~^     ~~~~~~~~~
+         %2lu
+../src/AddSubtractFull.c:12:1: error: expected ';' before 'printf'
+ printf("%2zu + %2zu = %3zu (%s)\n", i, j, r, (r == i+j) ? "COR" : "ERR");
+ ^~~~~~
+../src/AddSubtractFull.c:10:8: warning: unused variable 'r' [-Wunused-variable]
+ size_t r = regmap[0]; // read from register 0 (REG0_IN, output S of adder)
+        ^
+make: *** [src/subdir.mk:23: src/AddSubtractFull.o] Error 1
+17:30:42 **** Auto Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AddSubtractFull.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AddSubtractFull.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AddSubtractFull.d" -MT"src/AddSubtractFull.o" -o "src/AddSubtractFull.o" "../src/AddSubtractFull.c"
+../src/AddSubtractFull.c: In function 'main':
+../src/AddSubtractFull.c:11:12: warning: format '%zu' expects argument of type 'size_t', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+ printf("%2zu\n", regmap[0]);
+         ~~~^     ~~~~~~~~~
+         %2lu
+'Finished building: ../src/AddSubtractFull.c'
+' '
+'Building target: AddSubtractFull.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_1_bsp/ps7_cortexa9_0/lib -o "AddSubtractFull.elf"  ./src/AddSubtractFull.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AddSubtractFull.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AddSubtractFull.elf  |tee "AddSubtractFull.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70636	   2580	  23328	  96544	  17920	AddSubtractFull.elf
+'Finished building: AddSubtractFull.elf.size'
+' '
+17:31:17 **** Incremental Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:57:12 **** Incremental Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:57:43 **** Auto Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AddSubtractFull.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AddSubtractFull.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AddSubtractFull.d" -MT"src/AddSubtractFull.o" -o "src/AddSubtractFull.o" "../src/AddSubtractFull.c"
+../src/AddSubtractFull.c: In function 'main':
+../src/AddSubtractFull.c:11:12: warning: format '%zu' expects argument of type 'size_t', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+ printf("%2zu\n", regmap[0]);
+         ~~~^     ~~~~~~~~~
+         %2lu
+'Finished building: ../src/AddSubtractFull.c'
+' '
+'Building target: AddSubtractFull.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_1_bsp/ps7_cortexa9_0/lib -o "AddSubtractFull.elf"  ./src/AddSubtractFull.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AddSubtractFull.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AddSubtractFull.elf  |tee "AddSubtractFull.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70636	   2580	  23328	  96544	  17920	AddSubtractFull.elf
+'Finished building: AddSubtractFull.elf.size'
+' '
+17:58:08 **** Incremental Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:58:40 **** Auto Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AddSubtractFull.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AddSubtractFull.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AddSubtractFull.d" -MT"src/AddSubtractFull.o" -o "src/AddSubtractFull.o" "../src/AddSubtractFull.c"
+'Finished building: ../src/AddSubtractFull.c'
+' '
+'Building target: AddSubtractFull.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_1_bsp/ps7_cortexa9_0/lib -o "AddSubtractFull.elf"  ./src/AddSubtractFull.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AddSubtractFull.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AddSubtractFull.elf  |tee "AddSubtractFull.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70628	   2580	  23328	  96536	  17918	AddSubtractFull.elf
+'Finished building: AddSubtractFull.elf.size'
+' '
+17:59:12 **** Auto Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AddSubtractFull.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AddSubtractFull.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AddSubtractFull.d" -MT"src/AddSubtractFull.o" -o "src/AddSubtractFull.o" "../src/AddSubtractFull.c"
+'Finished building: ../src/AddSubtractFull.c'
+' '
+'Building target: AddSubtractFull.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_1_bsp/ps7_cortexa9_0/lib -o "AddSubtractFull.elf"  ./src/AddSubtractFull.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AddSubtractFull.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AddSubtractFull.elf  |tee "AddSubtractFull.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70628	   2580	  23328	  96536	  17918	AddSubtractFull.elf
+'Finished building: AddSubtractFull.elf.size'
+' '
+18:01:17 **** Auto Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AddSubtractFull.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AddSubtractFull.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AddSubtractFull.d" -MT"src/AddSubtractFull.o" -o "src/AddSubtractFull.o" "../src/AddSubtractFull.c"
+../src/AddSubtractFull.c: In function 'main':
+../src/AddSubtractFull.c:16:8: warning: implicit declaration of function 'time' [-Wimplicit-function-declaration]
+  srand(time(NULL));
+        ^~~~
+'Finished building: ../src/AddSubtractFull.c'
+' '
+'Building target: AddSubtractFull.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_1_bsp/ps7_cortexa9_0/lib -o "AddSubtractFull.elf"  ./src/AddSubtractFull.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/v7-a/fpv3/hard\libc.a(lib_a-gettimeofdayr.o): In function `_gettimeofday_r':
+gettimeofdayr.c:(.text+0x24): undefined reference to `_gettimeofday'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: AddSubtractFull.elf] Error 1
+18:01:29 **** Auto Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AddSubtractFull.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AddSubtractFull.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AddSubtractFull.d" -MT"src/AddSubtractFull.o" -o "src/AddSubtractFull.o" "../src/AddSubtractFull.c"
+../src/AddSubtractFull.c: In function 'main':
+../src/AddSubtractFull.c:16:8: warning: implicit declaration of function 'time' [-Wimplicit-function-declaration]
+  srand(time(NULL));
+        ^~~~
+../src/AddSubtractFull.c:21:9: warning: unused variable 'r' [-Wunused-variable]
+  size_t r = regmap[3];
+         ^
+'Finished building: ../src/AddSubtractFull.c'
+' '
+'Building target: AddSubtractFull.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_1_bsp/ps7_cortexa9_0/lib -o "AddSubtractFull.elf"  ./src/AddSubtractFull.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/v7-a/fpv3/hard\libc.a(lib_a-gettimeofdayr.o): In function `_gettimeofday_r':
+gettimeofdayr.c:(.text+0x24): undefined reference to `_gettimeofday'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: AddSubtractFull.elf] Error 1
+18:01:42 **** Auto Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AddSubtractFull.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AddSubtractFull.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AddSubtractFull.d" -MT"src/AddSubtractFull.o" -o "src/AddSubtractFull.o" "../src/AddSubtractFull.c"
+../src/AddSubtractFull.c: In function 'main':
+../src/AddSubtractFull.c:16:8: warning: implicit declaration of function 'time' [-Wimplicit-function-declaration]
+  srand(time(NULL));
+        ^~~~
+'Finished building: ../src/AddSubtractFull.c'
+' '
+'Building target: AddSubtractFull.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_1_bsp/ps7_cortexa9_0/lib -o "AddSubtractFull.elf"  ./src/AddSubtractFull.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/v7-a/fpv3/hard\libc.a(lib_a-gettimeofdayr.o): In function `_gettimeofday_r':
+gettimeofdayr.c:(.text+0x24): undefined reference to `_gettimeofday'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: AddSubtractFull.elf] Error 1
+18:02:27 **** Auto Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AddSubtractFull.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AddSubtractFull.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AddSubtractFull.d" -MT"src/AddSubtractFull.o" -o "src/AddSubtractFull.o" "../src/AddSubtractFull.c"
+../src/AddSubtractFull.c: In function 'main':
+../src/AddSubtractFull.c:16:8: warning: implicit declaration of function 'time' [-Wimplicit-function-declaration]
+  srand(time(NULL));
+        ^~~~
+'Finished building: ../src/AddSubtractFull.c'
+' '
+'Building target: AddSubtractFull.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_1_bsp/ps7_cortexa9_0/lib -o "AddSubtractFull.elf"  ./src/AddSubtractFull.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/v7-a/fpv3/hard\libc.a(lib_a-gettimeofdayr.o): In function `_gettimeofday_r':
+gettimeofdayr.c:(.text+0x24): undefined reference to `_gettimeofday'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: AddSubtractFull.elf] Error 1
+18:03:07 **** Auto Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AddSubtractFull.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AddSubtractFull.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AddSubtractFull.d" -MT"src/AddSubtractFull.o" -o "src/AddSubtractFull.o" "../src/AddSubtractFull.c"
+'Finished building: ../src/AddSubtractFull.c'
+' '
+'Building target: AddSubtractFull.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_1_bsp/ps7_cortexa9_0/lib -o "AddSubtractFull.elf"  ./src/AddSubtractFull.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/v7-a/fpv3/hard\libc.a(lib_a-gettimeofdayr.o): In function `_gettimeofday_r':
+gettimeofdayr.c:(.text+0x24): undefined reference to `_gettimeofday'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: AddSubtractFull.elf] Error 1
+18:03:09 **** Auto Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AddSubtractFull.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AddSubtractFull.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AddSubtractFull.d" -MT"src/AddSubtractFull.o" -o "src/AddSubtractFull.o" "../src/AddSubtractFull.c"
+'Finished building: ../src/AddSubtractFull.c'
+' '
+'Building target: AddSubtractFull.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_1_bsp/ps7_cortexa9_0/lib -o "AddSubtractFull.elf"  ./src/AddSubtractFull.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/v7-a/fpv3/hard\libc.a(lib_a-gettimeofdayr.o): In function `_gettimeofday_r':
+gettimeofdayr.c:(.text+0x24): undefined reference to `_gettimeofday'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: AddSubtractFull.elf] Error 1
+18:05:20 **** Auto Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AddSubtractFull.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AddSubtractFull.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AddSubtractFull.d" -MT"src/AddSubtractFull.o" -o "src/AddSubtractFull.o" "../src/AddSubtractFull.c"
+../src/AddSubtractFull.c: In function 'main':
+../src/AddSubtractFull.c:17:8: warning: implicit declaration of function 'time' [-Wimplicit-function-declaration]
+  srand(time(NULL));
+        ^~~~
+'Finished building: ../src/AddSubtractFull.c'
+' '
+'Building target: AddSubtractFull.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_1_bsp/ps7_cortexa9_0/lib -o "AddSubtractFull.elf"  ./src/AddSubtractFull.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/v7-a/fpv3/hard\libc.a(lib_a-gettimeofdayr.o): In function `_gettimeofday_r':
+gettimeofdayr.c:(.text+0x24): undefined reference to `_gettimeofday'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: AddSubtractFull.elf] Error 1
+18:05:25 **** Auto Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AddSubtractFull.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AddSubtractFull.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AddSubtractFull.d" -MT"src/AddSubtractFull.o" -o "src/AddSubtractFull.o" "../src/AddSubtractFull.c"
+'Finished building: ../src/AddSubtractFull.c'
+' '
+'Building target: AddSubtractFull.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_1_bsp/ps7_cortexa9_0/lib -o "AddSubtractFull.elf"  ./src/AddSubtractFull.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AddSubtractFull.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AddSubtractFull.elf  |tee "AddSubtractFull.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70884	   2580	  23328	  96792	  17a18	AddSubtractFull.elf
+'Finished building: AddSubtractFull.elf.size'
+' '
+18:05:30 **** Auto Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AddSubtractFull.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AddSubtractFull.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AddSubtractFull.d" -MT"src/AddSubtractFull.o" -o "src/AddSubtractFull.o" "../src/AddSubtractFull.c"
+../src/AddSubtractFull.c: In function 'main':
+../src/AddSubtractFull.c:17:2: error: too few arguments to function 'srand'
+  srand();
+  ^~~~~
+In file included from c:\xilinx\sdk\2018.3\gnu\aarch32\nt\gcc-arm-none-eabi\arm-none-eabi\libc\usr\include\stdio.h:29:0,
+                 from ../src/AddSubtractFull.c:1:
+c:\xilinx\sdk\2018.3\gnu\aarch32\nt\gcc-arm-none-eabi\arm-none-eabi\libc\usr\include\stdlib.h:147:7: note: declared here
+ _VOID _EXFUN(srand,(unsigned __seed));
+       ^
+make: *** [src/subdir.mk:23: src/AddSubtractFull.o] Error 1
+18:05:33 **** Auto Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AddSubtractFull.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AddSubtractFull.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AddSubtractFull.d" -MT"src/AddSubtractFull.o" -o "src/AddSubtractFull.o" "../src/AddSubtractFull.c"
+'Finished building: ../src/AddSubtractFull.c'
+' '
+'Building target: AddSubtractFull.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_1_bsp/ps7_cortexa9_0/lib -o "AddSubtractFull.elf"  ./src/AddSubtractFull.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AddSubtractFull.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AddSubtractFull.elf  |tee "AddSubtractFull.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70884	   2580	  23328	  96792	  17a18	AddSubtractFull.elf
+'Finished building: AddSubtractFull.elf.size'
+' '
+18:06:01 **** Incremental Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+18:08:33 **** Auto Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AddSubtractFull.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AddSubtractFull.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AddSubtractFull.d" -MT"src/AddSubtractFull.o" -o "src/AddSubtractFull.o" "../src/AddSubtractFull.c"
+'Finished building: ../src/AddSubtractFull.c'
+' '
+'Building target: AddSubtractFull.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_1_bsp/ps7_cortexa9_0/lib -o "AddSubtractFull.elf"  ./src/AddSubtractFull.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AddSubtractFull.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AddSubtractFull.elf  |tee "AddSubtractFull.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71268	   2580	  23328	  97176	  17b98	AddSubtractFull.elf
+'Finished building: AddSubtractFull.elf.size'
+' '
+18:08:40 **** Auto Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AddSubtractFull.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AddSubtractFull.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AddSubtractFull.d" -MT"src/AddSubtractFull.o" -o "src/AddSubtractFull.o" "../src/AddSubtractFull.c"
+../src/AddSubtractFull.c: In function 'main':
+../src/AddSubtractFull.c:26:2: error: expected ';' before 'for'
+  for (size_t i = 0; i < 16; i++) {
+  ^~~
+make: *** [src/subdir.mk:23: src/AddSubtractFull.o] Error 1
+18:08:43 **** Auto Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AddSubtractFull.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AddSubtractFull.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AddSubtractFull.d" -MT"src/AddSubtractFull.o" -o "src/AddSubtractFull.o" "../src/AddSubtractFull.c"
+'Finished building: ../src/AddSubtractFull.c'
+' '
+'Building target: AddSubtractFull.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_1_bsp/ps7_cortexa9_0/lib -o "AddSubtractFull.elf"  ./src/AddSubtractFull.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AddSubtractFull.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AddSubtractFull.elf  |tee "AddSubtractFull.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71332	   2580	  23328	  97240	  17bd8	AddSubtractFull.elf
+'Finished building: AddSubtractFull.elf.size'
+' '
+18:09:05 **** Auto Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AddSubtractFull.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AddSubtractFull.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AddSubtractFull.d" -MT"src/AddSubtractFull.o" -o "src/AddSubtractFull.o" "../src/AddSubtractFull.c"
+../src/AddSubtractFull.c: In function 'main':
+../src/AddSubtractFull.c:44:2: error: expected ';' before 'return'
+  return 0;
+  ^~~~~~
+make: *** [src/subdir.mk:23: src/AddSubtractFull.o] Error 1
+18:09:07 **** Auto Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AddSubtractFull.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AddSubtractFull.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AddSubtractFull.d" -MT"src/AddSubtractFull.o" -o "src/AddSubtractFull.o" "../src/AddSubtractFull.c"
+'Finished building: ../src/AddSubtractFull.c'
+' '
+'Building target: AddSubtractFull.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_1_bsp/ps7_cortexa9_0/lib -o "AddSubtractFull.elf"  ./src/AddSubtractFull.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AddSubtractFull.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AddSubtractFull.elf  |tee "AddSubtractFull.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71332	   2580	  23328	  97240	  17bd8	AddSubtractFull.elf
+'Finished building: AddSubtractFull.elf.size'
+' '
+18:09:40 **** Auto Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AddSubtractFull.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AddSubtractFull.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AddSubtractFull.d" -MT"src/AddSubtractFull.o" -o "src/AddSubtractFull.o" "../src/AddSubtractFull.c"
+'Finished building: ../src/AddSubtractFull.c'
+' '
+'Building target: AddSubtractFull.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_1_bsp/ps7_cortexa9_0/lib -o "AddSubtractFull.elf"  ./src/AddSubtractFull.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AddSubtractFull.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AddSubtractFull.elf  |tee "AddSubtractFull.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71460	   2580	  23328	  97368	  17c58	AddSubtractFull.elf
+'Finished building: AddSubtractFull.elf.size'
+' '
+18:10:24 **** Auto Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AddSubtractFull.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AddSubtractFull.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AddSubtractFull.d" -MT"src/AddSubtractFull.o" -o "src/AddSubtractFull.o" "../src/AddSubtractFull.c"
+'Finished building: ../src/AddSubtractFull.c'
+' '
+'Building target: AddSubtractFull.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_1_bsp/ps7_cortexa9_0/lib -o "AddSubtractFull.elf"  ./src/AddSubtractFull.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AddSubtractFull.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AddSubtractFull.elf  |tee "AddSubtractFull.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71460	   2580	  23328	  97368	  17c58	AddSubtractFull.elf
+'Finished building: AddSubtractFull.elf.size'
+' '
+18:11:03 **** Auto Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AddSubtractFull.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AddSubtractFull.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AddSubtractFull.d" -MT"src/AddSubtractFull.o" -o "src/AddSubtractFull.o" "../src/AddSubtractFull.c"
+../src/AddSubtractFull.c: In function 'main':
+../src/AddSubtractFull.c:50:9: error: redefinition of 'i'
+  size_t i = 2147483647;
+         ^
+../src/AddSubtractFull.c:44:9: note: previous definition of 'i' was here
+  size_t i = 2147483647;
+         ^
+../src/AddSubtractFull.c:51:9: error: redefinition of 'j'
+  size_t j = 2147483647;
+         ^
+../src/AddSubtractFull.c:45:9: note: previous definition of 'j' was here
+  size_t j = 2147483647;
+         ^
+../src/AddSubtractFull.c:54:9: error: redefinition of 'r'
+  size_t r = regmap[3];
+         ^
+../src/AddSubtractFull.c:48:9: note: previous definition of 'r' was here
+  size_t r = regmap[3];
+         ^
+make: *** [src/subdir.mk:23: src/AddSubtractFull.o] Error 1
+18:24:55 **** Auto Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AddSubtractFull.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AddSubtractFull.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AddSubtractFull.d" -MT"src/AddSubtractFull.o" -o "src/AddSubtractFull.o" "../src/AddSubtractFull.c"
+'Finished building: ../src/AddSubtractFull.c'
+' '
+'Building target: AddSubtractFull.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_1_bsp/ps7_cortexa9_0/lib -o "AddSubtractFull.elf"  ./src/AddSubtractFull.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AddSubtractFull.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AddSubtractFull.elf  |tee "AddSubtractFull.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72196	   2580	  23328	  98104	  17f38	AddSubtractFull.elf
+'Finished building: AddSubtractFull.elf.size'
+' '
+18:25:23 **** Incremental Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+18:27:03 **** Incremental Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+18:27:46 **** Auto Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AddSubtractFull.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AddSubtractFull.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AddSubtractFull.d" -MT"src/AddSubtractFull.o" -o "src/AddSubtractFull.o" "../src/AddSubtractFull.c"
+'Finished building: ../src/AddSubtractFull.c'
+' '
+'Building target: AddSubtractFull.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_1_bsp/ps7_cortexa9_0/lib -o "AddSubtractFull.elf"  ./src/AddSubtractFull.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AddSubtractFull.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AddSubtractFull.elf  |tee "AddSubtractFull.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72228	   2580	  23328	  98136	  17f58	AddSubtractFull.elf
+'Finished building: AddSubtractFull.elf.size'
+' '
+18:28:25 **** Auto Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AddSubtractFull.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AddSubtractFull.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AddSubtractFull.d" -MT"src/AddSubtractFull.o" -o "src/AddSubtractFull.o" "../src/AddSubtractFull.c"
+'Finished building: ../src/AddSubtractFull.c'
+' '
+'Building target: AddSubtractFull.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_1_bsp/ps7_cortexa9_0/lib -o "AddSubtractFull.elf"  ./src/AddSubtractFull.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AddSubtractFull.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AddSubtractFull.elf  |tee "AddSubtractFull.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72196	   2580	  23328	  98104	  17f38	AddSubtractFull.elf
+'Finished building: AddSubtractFull.elf.size'
+' '
+18:28:32 **** Auto Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AddSubtractFull.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AddSubtractFull.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AddSubtractFull.d" -MT"src/AddSubtractFull.o" -o "src/AddSubtractFull.o" "../src/AddSubtractFull.c"
+'Finished building: ../src/AddSubtractFull.c'
+' '
+'Building target: AddSubtractFull.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_1_bsp/ps7_cortexa9_0/lib -o "AddSubtractFull.elf"  ./src/AddSubtractFull.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AddSubtractFull.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AddSubtractFull.elf  |tee "AddSubtractFull.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72228	   2580	  23328	  98136	  17f58	AddSubtractFull.elf
+'Finished building: AddSubtractFull.elf.size'
+' '
+18:28:54 **** Incremental Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+18:30:11 **** Auto Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/AddSubtractFull.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AddSubtractFull.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/AddSubtractFull.d" -MT"src/AddSubtractFull.o" -o "src/AddSubtractFull.o" "../src/AddSubtractFull.c"
+'Finished building: ../src/AddSubtractFull.c'
+' '
+'Building target: AddSubtractFull.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_1_bsp/ps7_cortexa9_0/lib -o "AddSubtractFull.elf"  ./src/AddSubtractFull.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AddSubtractFull.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size AddSubtractFull.elf  |tee "AddSubtractFull.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72228	   2580	  23328	  98136	  17f58	AddSubtractFull.elf
+'Finished building: AddSubtractFull.elf.size'
+' '
+18:30:20 **** Incremental Build of configuration Debug for project AddSubtractFull ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.

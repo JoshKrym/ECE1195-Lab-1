@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:/home/josh/projects/ece1195/Lab-1True/Lab_1/Lab_1.srcs/constrs_1/imports/Lab-1True/PYNQ-Z1_C.xdc rfile:../../../Lab_1.srcs/constrs_1/imports/Lab-1True/PYNQ-Z1_C.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Users/gman1/Documents/projects/ece1195/ECE1195-Lab-1/Lab_1/Lab_1.srcs/constrs_1/imports/Lab-1True/PYNQ-Z1_C.xdc rfile:../../../Lab_1.srcs/constrs_1/imports/Lab-1True/PYNQ-Z1_C.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:27 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN R14   IOSTANDARD LVCMOS33 } [get_ports { led[0] }]; #IO_L6N_T0_VREF_34 Sch=led[0]
 set_property src_info {type:XDC file:1 line:28 export:INPUT save:INPUT read:READ} [current_design]

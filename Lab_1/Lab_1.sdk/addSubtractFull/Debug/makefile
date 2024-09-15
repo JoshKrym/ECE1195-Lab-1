@@ -25,32 +25,32 @@ endif
 
 # Add inputs and outputs from these tool invocations to the build variables 
 ELFSIZE += \
-addSubtractFull.elf.size \
+AddSubtractFull.elf.size \
 
 
 # All Target
 all: pre-build main-build
 
 # Main-build Target
-main-build: addSubtractFull.elf secondary-outputs
+main-build: AddSubtractFull.elf secondary-outputs
 
 # Tool invocations
-addSubtractFull.elf: $(OBJS) ../src/lscript.ld $(USER_OBJS)
+AddSubtractFull.elf: $(OBJS) ../src/lscript.ld $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: ARM v7 gcc linker'
-	arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_1_bsp/ps7_cortexa9_0/lib -o "addSubtractFull.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_1_bsp/ps7_cortexa9_0/lib -o "AddSubtractFull.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
-addSubtractFull.elf.size: addSubtractFull.elf
+AddSubtractFull.elf.size: AddSubtractFull.elf
 	@echo 'Invoking: ARM v7 Print Size'
-	arm-none-eabi-size addSubtractFull.elf  |tee "addSubtractFull.elf.size"
+	arm-none-eabi-size AddSubtractFull.elf  |tee "AddSubtractFull.elf.size"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(EXECUTABLES)$(OBJS)$(S_UPPER_DEPS)$(C_DEPS)$(ELFSIZE) addSubtractFull.elf
+	-$(RM) $(EXECUTABLES)$(OBJS)$(S_UPPER_DEPS)$(C_DEPS)$(ELFSIZE) AddSubtractFull.elf
 	-@echo ' '
 
 pre-build:

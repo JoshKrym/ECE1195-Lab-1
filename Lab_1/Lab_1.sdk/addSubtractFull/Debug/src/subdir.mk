@@ -7,13 +7,13 @@ LD_SRCS += \
 ../src/lscript.ld 
 
 C_SRCS += \
-../src/addSubtractFull.c 
+../src/AddSubtractFull.c 
 
 OBJS += \
-./src/addSubtractFull.o 
+./src/AddSubtractFull.o 
 
 C_DEPS += \
-./src/addSubtractFull.d 
+./src/AddSubtractFull.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

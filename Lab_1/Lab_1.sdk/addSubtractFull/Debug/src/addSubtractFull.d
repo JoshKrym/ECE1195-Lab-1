@@ -1,1 +1,1 @@
-src/addSubtractFull.o src/addSubtractFull.o: ../src/addSubtractFull.c
+src/AddSubtractFull.o src/AddSubtractFull.o: ../src/AddSubtractFull.c

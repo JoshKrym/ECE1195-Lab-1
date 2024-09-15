@@ -1,16 +1,94 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int main(void){
-    printf("Hello World\n");
+int main(void)
+{
+    // base address of axi_regmap as set in the Vivado address editor
     uint32_t *regmap = (uint32_t *) 0x70000000;
-
-    for (size_t i=0; i < 16; i++){
-        for (size_t j=0; j < 16; j++){
-            regmap[0] = i;
-            regmap[1] = j;
-            size_t r = regmap[3];
+    for (size_t i = 0; i < 16; i++) {
+        for (size_t j = 0; j < 16; j++) {
+            regmap[0] = i; // write to register 0 (REG0_OUT, input A of adder)
+            regmap[1] = j; // write to register 1 (REG1_OUT, input B of adder)
+            size_t r = regmap[3]; // read from register 0 (REG0_IN, output S of adder)
             printf("%2zu + %2zu = %3zu (%s)\n", i, j, r, (r == i+j) ? "COR" : "ERR");
         }
     }
+    printf("Hello World\n");
+    for (size_t l = 0; l < 16; l++) {
+        size_t i = rand();
+        size_t j = rand();
+        regmap[0] = i;
+        regmap[1] = j;
+        size_t r = regmap[3];
+        printf("%2zu + %2zu = %3zu (%s)\n", i, j, r, (r == i+j) ? "COR" : "ERR");
+    }
+    regmap[2] = 1;
+    for (size_t i = 0; i < 16; i++) {
+        for (size_t j = 0; j < 16; j++) {
+            regmap[0] = i; // write to register 0 (REG0_OUT, input A of adder)
+            regmap[1] = j; // write to register 1 (REG1_OUT, input B of adder)
+            size_t r = regmap[3]; // read from register 0 (REG0_IN, output S of adder)
+            printf("%2zu - %2zu = %3zu (%s)\n", i, j, r, (r == i-j) ? "COR" : "ERR");
+        }
+    }
+    printf("Hello World\n");
+    for (size_t l = 0; l < 16; l++) {
+        size_t i = rand();
+        size_t j = rand();
+        regmap[0] = i;
+        regmap[1] = j;
+        size_t r = regmap[3];
+        printf("%2zu - %2zu = %3zu (%s)\n", i, j, r, (r == i-j) ? "COR" : "ERR");
+    }
+    regmap[2] = 0;
+    size_t i = 2147483647;
+    size_t j = 2147483647;
+    regmap[0] = i;
+    regmap[1] = j;
+    size_t r = regmap[3];
+    printf("%2zu + %2zu = %3zu (%s)\n", i, j, r, (r == i+j) ? "COR" : "ERR");
+    i = r;
+    j = 1;
+    regmap[0] = i;
+    regmap[1] = j;
+    r = regmap[4];
+    printf("0=%3zu (%s)\n", r, (r == 0) ? "COR" : "ERR");
+
+    i = 2147483647;
+    j = 2147483647;
+    regmap[0] = i;
+    regmap[1] = j;
+    r = regmap[3];
+    printf("%2zu + %2zu = %3zu (%s)\n", i, j, r, (r == i+j) ? "COR" : "ERR");
+    i = r;
+    j = 2;
+    regmap[0] = i;
+    regmap[1] = j;
+    r = regmap[4];
+    printf("1=%3zu (%s)\n", r, (r == 1) ? "COR" : "ERR");
+
+    regmap[2] = 1;
+
+    i = 0;
+    j = 5;
+    regmap[0] = i;
+    regmap[1] = j;
+    r = regmap[4];
+    printf("0=%3zu (%s)\n", r, (r == 0) ? "COR" : "ERR");
+
+    i = 5;
+    j = 5;
+    regmap[0] = i;
+    regmap[1] = j;
+    r = regmap[4];
+    printf("1=%3zu (%s)\n", r, (r == 1) ? "COR" : "ERR");
+
+    i = 10;
+    j = 5;
+    regmap[0] = i;
+    regmap[1] = j;
+    r = regmap[4];
+    printf("1=%3zu (%s)\n", r, (r == 1) ? "COR" : "ERR");
+
     return 0;
 }
