@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/Lab-1True/Lab_1/Lab_1.srcs/sources_1/imports/new/addFull.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'addFull'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/Lab-1True/Lab_1/Lab_1.srcs/sources_1/imports/new/addSubtract.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'addSubtract'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/Lab-1True/Lab_1/Lab_1.srcs/sources_1/imports/new/addSubtractFull.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'addSubtractFull'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/Lab-1True/Lab_1/Lab_1.srcs/sim_1/imports/new/addSubtractFulltb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'addSubtractFulltb'
